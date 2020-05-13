@@ -1,0 +1,25 @@
+{
+  "name": "ejam-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "cd ./frontend/ && npm run build",
+    "deploy": "cd ./frontend/ && gh-pages -b master -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-mittal/ejam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-mittal/ejam/issues"
+  },
+  "homepage": "https://github.com/abhishek-mittal/ejam#readme"
+}
